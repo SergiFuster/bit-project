@@ -20,13 +20,13 @@
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/bit.git
+   git clone https://github.com/SergiFuster/bit-project.git
    ```
 
 2. **Navigate to the Project Directory**
 
    ```bash
-   cd bit
+   cd bit-project
    ```
 
 3. **Install Dependencies**
@@ -44,6 +44,19 @@
    By default, the API will start on `http://localhost:5000`.
 
 ## Usage
+
+### File Structure
+
+Yo can create directories to match the default route:
+```
+data/
+├── files/
+```
+
+Or change the route directly from ```main.py```:
+```
+drawer = "your_directory_path"
+```
 
 ### API Endpoints
 
