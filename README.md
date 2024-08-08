@@ -31,7 +31,7 @@
 
 3. **Create Virtual Environment**
    ```bash
-   python -m venv venv_name
+   python -m venv venv
    ```
    
 4. **Install Dependencies**
@@ -45,6 +45,14 @@
    ```bash
    python app.py
    ```
+**All in one**
+```bash
+   git clone https://github.com/SergiFuster/bit-project.git
+   cd bit-project
+   python -m venv venv
+   pip install -r requirements.txt
+   python app.py
+```
 
    By default, the API will start on `http://localhost:5000`.
 
