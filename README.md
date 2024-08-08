@@ -14,17 +14,6 @@
 
 - [Python 3.x](https://www.python.org/downloads/)
 - [pip](https://pip.pypa.io/en/stable/)
-### Fast Start
-
-```bash
-   git clone https://github.com/SergiFuster/bit-project.git
-   cd bit-project
-   python -m venv venv
-   pip install -r requirements.txt
-   python app.py
-```
-
-By default, the API will start on `http://localhost:5000`.
 
 ### Steps
 
@@ -57,6 +46,8 @@ By default, the API will start on `http://localhost:5000`.
    python app.py
    ```
    
+By default, the API will start on `http://localhost:5000`.
+
 ## Usage
 
 ### File Structure
