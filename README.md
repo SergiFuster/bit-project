@@ -29,13 +29,18 @@
    cd bit-project
    ```
 
-3. **Install Dependencies**
+3. **Create Virtual Environment**
+   ```bash
+   python -m venv venv_name
+   ```
+   
+4. **Install Dependencies**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Run the Application**
+5. **Run the Application**
 
    ```bash
    python app.py
